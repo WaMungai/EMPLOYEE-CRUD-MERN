@@ -31,7 +31,7 @@ function Edit() {
         }
         fetchData()
         return
-    },[params,id,navigate])
+    },[params.id,navigate])
 
     //methods to update state propertiess
 
