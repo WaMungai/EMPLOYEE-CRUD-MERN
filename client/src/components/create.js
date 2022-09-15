@@ -39,7 +39,7 @@ async function onSubmit(e){
 }
   return (
     <div>
-        <h3>Create new reocrd</h3>
+        <h3>Create new record</h3>
         <form onSubmit={onSubmit}>
             <div className="form-group">
                 <label htmlFor="name">Name</label>
